@@ -1,0 +1,14 @@
+version: 1.2.8
+
+cache: true
+
+speech:
+  tts:
+    elevenlabs:
+      apiKey: '${TTS_API_KEY}'
+      model: 'eleven_flash_v2_5'
+      voices: ['UOIqAnmS11Reiei1Ytkc', 'lUTamkMw7gOzZbFIwmq4', 'fQj4gJSexpu8RDE2Ii5m']
+  stt:
+    openai:
+      apiKey: '${STT_API_KEY}'
+      model: 'gpt-4o-mini-transcribe'
