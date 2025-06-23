@@ -33,3 +33,9 @@ endpoints:
       titleConvo: true
       titleModel: "deepseek-chat"
       modelDisplayLabel: "Deepseek"
+
+# Example MCP Servers Object Structure
+mcpServers:
+  zapier:
+    type: streamable-http
+    url: https://mcp.zapier.com/api/mcp/s/NmIxYzI0NmEtYTU4MC00NWI5LTk1ZmMtNzY0NjllZmZlMDY0OjcxZWY5YjBiLTYwOTctNDUzNS04OWVmLTA5YjY4NTQ5MjkzNA==/mcp
