@@ -67,3 +67,13 @@ mcpServers:
     command: npx
     args:
       - "@playwright/mcp@latest"
+
+  openmemory:
+    type: stdio           # default, but stating it is fine
+    command: npx
+    args:
+      - -y
+      - openmemory        # the package that provides the MCP server
+    env:
+      OPENMEMORY_API_KEY: "${OPENMEMORY_API_KEY}"   # reference .env or host env
+      CLIENT_NAME: "openmemory"
